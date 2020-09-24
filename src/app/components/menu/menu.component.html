@@ -16,7 +16,7 @@
         <h1>International</h1>
         <span class="no-wrap"><h1>express company</h1></span>
         <p>we deliver goods to 220 countries</p>
-        <input #trackNumber type="text" class="track-number" placeholder="Track-number" [ngClass]="emptyTrackingNumber || invalidNumber ? 'track-number-empty' : ''">
+        <input #trackNumber type="text" class="track-number" placeholder="Track-number 2" [ngClass]="emptyTrackingNumber || invalidNumber ? 'track-number-empty' : ''">
         <input (click)="searchCode2(trackNumber.value)" type="button" value="search" class="track-button">
         <p *ngIf="emptyTrackingNumber || invalidNumber || infoSuccess " class="empty-num-msg" [ngClass]="infoSuccess?'track-number-success':''">{{invalidNumber? 'Tracking number not found': emptyTrackingNumber ? 'Please enter the tracking number' : infoSuccess ? trackingText : '' }}</p>
         <span class="plane-img"><img src="assets\img\plane.png" class="plane"></span>
