@@ -95,6 +95,9 @@
             input{
                 border:none;
             }
+            input:focus{
+                outline: none;
+            }
             .track-number{
                 background: white;
                 border-radius:5px;
