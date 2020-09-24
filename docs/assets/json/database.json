@@ -1,6 +1,0 @@
-{
-    "db":[
-        {"trackNumber" : "abc123", "date":"12/09/2020", "country": "china"},
-        {"trackNumber" : "xyz789", "date":"05/03/2021", "country": "usa"}
-    ] 
-}
